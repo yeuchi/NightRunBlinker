@@ -13,6 +13,7 @@ Basic configurable features.
 
 ### Use Cases
 Among many phone carrier designs, below three are popular styles this application is designed for.  For all scenarios, the phone screen is highly visible for cautionary to oncoming traffic.
+
 <img src="https://user-images.githubusercontent.com/1282659/68342401-1f718980-00b0-11ea-914d-30eb1fe16efb.png" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68342402-1f718980-00b0-11ea-8745-ef3c03f15009.png" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68342403-1f718980-00b0-11ea-8f4d-83d3d4550238.png" width="200"> 
 
 #### MainActivity (configuration) 
