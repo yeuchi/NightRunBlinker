@@ -6,8 +6,8 @@ As a runner myself, I often run in the dark (morning or night) to meet training 
 
 ## Configuration
 Here are some basic configurable features.
-1. select the colors of your toggling screen.
-2. select the interval of your blink in milliseconds (this is a software project after all).
+1. Colors of the toggling screen.
+2. Blink interval in milliseconds (this is a software project after all).
 
 ## Test
 This application is tested on Samsung Galaxy.
