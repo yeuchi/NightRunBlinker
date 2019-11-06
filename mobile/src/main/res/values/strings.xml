@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NightRunBlinker</string>
+    <string name="title_activity_blink">BlinkActivity</string>
+
+    <string name="fixed_time_interval">Fixed time interval</string>
+    <string name="accelerometer_up">Accelerometer Up</string>
+    <string name="music">Music</string>
+    <string name="Start">Start</string>
+    <string name="Stop">Stop</string>
+    <string name="Color">Color</string>
+
+    <!-- Color popup dialog -->
+    <string name="choose">Choose</string>
+    <string name="btn_cancel">cancel</string>
+</resources>
