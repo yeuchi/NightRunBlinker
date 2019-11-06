@@ -36,6 +36,7 @@ object ColorPopup {
                     button.setBackgroundColor(color)
                     SharedPrefUtility.setColor(
                         context,
+                        key,
                         color
                     )    // store in sharedPreference
                 }

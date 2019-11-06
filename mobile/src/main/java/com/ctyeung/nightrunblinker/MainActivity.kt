@@ -4,9 +4,7 @@ import android.content.Intent
 import androidx.databinding.DataBindingUtil
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
-import android.widget.NumberPicker
 import com.ctyeung.nightrunblinker.databinding.ActivityMainBinding
 
 /*
@@ -26,11 +24,9 @@ import com.ctyeung.nightrunblinker.databinding.ActivityMainBinding
  *    c. in range: configured color
  *    b. if under: blue light + vibrate
  */
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : AppCompatActivity(), IntervalPopUp.OnDialogOKListener {
     lateinit var binding: ActivityMainBinding
-    var color:Int = 0
-    lateinit var btnColor:Button
+    lateinit var intervalListener:IntervalPopUp.OnDialogOKListener
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,38 +34,67 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding?.listener = this
+        intervalListener = this
 
-        setPrefBlinkInterval()
-        setPrefBlinkColor()
+        setPrefInterval()
+        setPrefBlinkColor(R.id.btnColor1, SharedPrefUtility.keyColor1)
+        setPrefBlinkColor(R.id.btnColor2, SharedPrefUtility.keyColor2)
     }
 
-    fun setPrefBlinkInterval() {
-        var numInterval:NumberPicker = findViewById(R.id.numInterval)
-        numInterval.minValue = 200
-        numInterval.maxValue = 10000
-        numInterval.value = 1000
+    fun setPrefInterval() {
+        val milliseconds = SharedPrefUtility.getInterval(this.applicationContext)
+        val btnInterval:Button = findViewById(R.id.btnInterval)
+        btnInterval?.text = resources.getString(R.string.interval) + milliseconds
     }
 
-    fun setPrefBlinkColor() {
-        color = SharedPrefUtility.getColor(this.applicationContext)
-        btnColor = findViewById(R.id.btnColor)
+    fun setPrefBlinkColor(id:Int, colorName:String) {
+        val color:Int = SharedPrefUtility.getColor(this.applicationContext, colorName)
+        val btnColor:Button = findViewById(id)
         btnColor?.setBackgroundColor(color)
-
-        btnColor?.setOnClickListener(View.OnClickListener {
-            ColorPopup.launch(
-                btnColor,
-                this.applicationContext,
-                SharedPrefUtility.keyColor
-            )
-        })
     }
 
-    /*
-     * navigate to blinkActivity
-     * -> Start blinking
-     */
+    // Callback handler
+    override fun onNumberDialogOKClick(value:Int)
+    {
+        SharedPrefUtility.setInterval(this.applicationContext, value.toLong())
+        setPrefInterval()
+    }
+
+    fun onClickInterval()
+    {
+        val numPicker = resources.getString(R.string.intervalpicker)
+        val dlg = IntervalPopUp()
+        val interval:Long = SharedPrefUtility.getInterval(this.applicationContext)
+        dlg.setParams(intervalListener, interval)
+        dlg.show(supportFragmentManager, numPicker)
+    }
+
+    // Button handler
+    fun onClickColor1()
+    {
+        launchColorPopup(R.id.btnColor1, SharedPrefUtility.keyColor1)
+    }
+
+    // Button handler
+    fun onClickColor2()
+    {
+        launchColorPopup(R.id.btnColor2, SharedPrefUtility.keyColor2)
+    }
+
+    fun launchColorPopup(id:Int, colorName:String)
+    {
+        val btnColor:Button = findViewById(id)
+        ColorPopup.launch(
+            btnColor,
+            this.applicationContext,
+            colorName
+        )
+    }
+
+    // Button handler
     fun onClickStart()
     {
+        // -> Start blinking
         val intent = Intent(this.applicationContext, BlinkActivity::class.java)
         startActivity(intent)
     }

@@ -31,6 +31,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+           <!--
             <RadioGroup
                 android:id="@+id/radio_group"
                 android:layout_width="wrap_content"
@@ -59,23 +60,36 @@
                     android:layout_marginTop="10dp"/>
 
             </RadioGroup>
-
-            <NumberPicker
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/numInterval"/>
+            -->
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Color"
-                android:id="@+id/btnColor"/>
+                android:layout_margin="5dp"
+                android:onClick="@{()-> listener.onClickInterval()}"
+                android:id="@+id/btnInterval"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="@string/Start"
+                android:layout_margin="5dp"
+                android:text="@string/color1"
+                android:onClick="@{()-> listener.onClickColor1()}"
+                android:id="@+id/btnColor1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/color2"
+                android:layout_margin="5dp"
+                android:onClick="@{()-> listener.onClickColor2()}"
+                android:id="@+id/btnColor2"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/start"
                 android:onClick="@{()-> listener.onClickStart()}"
                 android:id="@+id/btnStart"/>
 

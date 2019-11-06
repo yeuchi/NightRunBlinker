@@ -18,8 +18,8 @@ import com.ctyeung.nightrunblinker.databinding.ActivityBlinkBinding
 
 
 class BlinkActivity : AppCompatActivity() {
-    val BLACK_COLOR:Int = 0
-    var colorSelect:Int = 0
+    var color1:Int = 0
+    var color2:Int = 0
     val timer = Timer()
 
     lateinit var binding: ActivityBlinkBinding
@@ -33,7 +33,8 @@ class BlinkActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_blink)
         binding?.listener = this
 
-        colorSelect = SharedPrefUtility.getColor(this.applicationContext)
+        color1 = SharedPrefUtility.getColor(this.applicationContext, SharedPrefUtility.keyColor1)
+        color2 = SharedPrefUtility.getColor(this.applicationContext, SharedPrefUtility.keyColor2)
         background = findViewById(R.id.layoutBlink)
         startTimer()
     }
@@ -59,10 +60,10 @@ class BlinkActivity : AppCompatActivity() {
      */
     fun blink()
     {
-        if (color == colorSelect)
-            color = BLACK_COLOR
+        if (color == color1)
+            color = color2
         else
-            color = colorSelect
+            color = color1
 
         background?.setBackgroundColor(color)
     }
