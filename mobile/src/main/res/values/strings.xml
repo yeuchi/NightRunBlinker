@@ -11,6 +11,7 @@
     <string name="start">Start</string>
     <string name="color1">Color 1</string>
     <string name="color2">Color 2</string>
+    <string name="config">Configuration</string>
 
     <!-- Blink activity -->
     <string name="stop">Stop</string>
