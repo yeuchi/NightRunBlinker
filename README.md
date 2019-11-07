@@ -29,4 +29,4 @@ Basic configurable features.
 <img src="https://user-images.githubusercontent.com/1282659/68348136-b9d8c980-00be-11ea-8e74-9cf7a3ccc063.jpg" width="400"> <img src="https://user-images.githubusercontent.com/1282659/68348135-b9d8c980-00be-11ea-91eb-d25bdb59c0c5.jpg" width="400">
 
 ### Test
-This application is tested on Samsung Galaxy.
+This application has been tested on Samsung Galaxy9.
