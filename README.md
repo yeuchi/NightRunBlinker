@@ -23,6 +23,7 @@ Basic configurable features.
 <img src="https://user-images.githubusercontent.com/1282659/68348133-b9d8c980-00be-11ea-8648-ed5151405c42.jpg" width="400"> <img src="https://user-images.githubusercontent.com/1282659/68348134-b9d8c980-00be-11ea-94ce-8f515c5792ad.jpg" width="400">
 
 #### BlinkActivity
+Toggles between below screens for the configured duration; phone is in wakelock mode.
 
 <img src="https://user-images.githubusercontent.com/1282659/68332660-cba97500-009c-11ea-9eed-cc98a881ab78.jpg" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68332662-cf3cfc00-009c-11ea-9d53-94c816da8518.jpg" width="200">
  
