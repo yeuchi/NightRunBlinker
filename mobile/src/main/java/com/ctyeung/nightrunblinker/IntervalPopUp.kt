@@ -21,11 +21,11 @@ class IntervalPopUp : DialogFragment()
         fun onNumberDialogOKClick(value: Int)
     }
 
-    private fun setNumberValues() {
+    private fun setNumberValues(value:Int) {
         if (null != numberPicker) {
             numberPicker!!.minValue = SharedPrefUtility.INTERVAL_MIN
             numberPicker!!.maxValue = SharedPrefUtility.INTERVAL_MAX
-            numberPicker!!.value = SharedPrefUtility.INTERVAL_DEFAULT
+            numberPicker!!.value = value
         }
     }
 
@@ -35,22 +35,19 @@ class IntervalPopUp : DialogFragment()
 
         val ok = context?.getResources()?.getString(R.string.ok)
         val cancel = context?.getResources()?.getString(R.string.btn_cancel)
-        val chooseValue = context?.getResources()?.getString(R.string.choose_value)
-        val chooseNumber = context?.getResources()?.getString(R.string.choose_number)
+        val chooseValue = context?.getResources()?.getString(R.string.choose_interval)
+        val chooseUnit = context?.getResources()?.getString(R.string.choose_unit)
 
         numberPicker = NumberPicker(activity)
-        setNumberValues()
+        setNumberValues(SharedPrefUtility.INTERVAL_DEFAULT)
 
         val builder = AlertDialog.Builder(activity)
         builder.setTitle(chooseValue)
-        builder.setMessage(chooseNumber)
+        builder.setMessage(chooseUnit)
 
         builder.setPositiveButton(ok, DialogInterface.OnClickListener { dialog, which ->
             val value = numberPicker!!.value
             mListener!!.onNumberDialogOKClick(value)
-
-            // valueChangeListener.onValueChange(numberPicker,
-            //        numberPicker.getValue(), numberPicker.getValue());
         })
 
 
@@ -67,10 +64,10 @@ class IntervalPopUp : DialogFragment()
 
     fun setParams(
         listener: OnDialogOKListener,
-        value: Long
+        value: Int
     ) {
         this.mListener = listener
-        setNumberValues()
+        setNumberValues(value)
     }
 
     fun getValueChangeListener(): NumberPicker.OnValueChangeListener? {

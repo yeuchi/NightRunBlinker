@@ -41,7 +41,7 @@ class BlinkActivity : AppCompatActivity() {
 
     fun startTimer()
     {
-        var period:Long = SharedPrefUtility.getInterval(this.applicationContext)
+        var milliseconds:Int = SharedPrefUtility.INTERVAL_MULTIPLY * SharedPrefUtility.getInterval(this.applicationContext)
         //Set the schedule function
         timer.scheduleAtFixedRate(
             object : TimerTask() {
@@ -50,7 +50,7 @@ class BlinkActivity : AppCompatActivity() {
                     blink()
                 }
             },
-            0, period
+            0, milliseconds.toLong()
         )   // 1000 Millisecond  = 1 second
     }
 

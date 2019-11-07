@@ -18,11 +18,11 @@
 
     <!-- Color popup dialog -->
     <string name="choose">Choose</string>
-    <string name="btn_cancel">cancel</string>
+    <string name="btn_cancel">Cancel</string>
 
     <!-- number picker dialog -->
-    <string name="choose_value">Choose Value</string>
-    <string name="choose_number">Choose Number</string>
+    <string name="choose_interval">Choose Interval time</string>
+    <string name="choose_unit">in seconds</string>
     <string name="ok">OK</string>
     <string name="intervalpicker">Interval picker</string>
     <string name="interval">Interval:</string>

@@ -42,9 +42,9 @@ class MainActivity : AppCompatActivity(), IntervalPopUp.OnDialogOKListener {
     }
 
     fun setPrefInterval() {
-        val milliseconds = SharedPrefUtility.getInterval(this.applicationContext)
+        val seconds = SharedPrefUtility.getInterval(this.applicationContext)
         val btnInterval:Button = findViewById(R.id.btnInterval)
-        btnInterval?.text = resources.getString(R.string.interval) + milliseconds
+        btnInterval?.text = resources.getString(R.string.interval) + seconds
     }
 
     fun setPrefBlinkColor(id:Int, colorName:String) {
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity(), IntervalPopUp.OnDialogOKListener {
     // Callback handler
     override fun onNumberDialogOKClick(value:Int)
     {
-        SharedPrefUtility.setInterval(this.applicationContext, value.toLong())
+        SharedPrefUtility.setInterval(this.applicationContext, value)
         setPrefInterval()
     }
 
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity(), IntervalPopUp.OnDialogOKListener {
     {
         val numPicker = resources.getString(R.string.intervalpicker)
         val dlg = IntervalPopUp()
-        val interval:Long = SharedPrefUtility.getInterval(this.applicationContext)
+        val interval:Int = SharedPrefUtility.getInterval(this.applicationContext)
         dlg.setParams(intervalListener, interval)
         dlg.show(supportFragmentManager, numPicker)
     }

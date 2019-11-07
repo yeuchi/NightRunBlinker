@@ -10,21 +10,22 @@ object SharedPrefUtility
     val keyColor1 = "color1"
     val keyColor2 = "color2"
     var keyInterval = "time"
-    val INTERVAL_MIN:Int = 200
-    val INTERVAL_MAX:Int = 5000
-    val INTERVAL_DEFAULT:Int = 1000
+    val INTERVAL_MIN:Int = 1
+    val INTERVAL_MAX:Int = 10
+    val INTERVAL_DEFAULT:Int = 1
+    var INTERVAL_MULTIPLY = 1000
 
-    open fun getInterval(context:Context):Long
+    open fun getInterval(context:Context):Int
     {
         val sharedPreferences = getSharedPref(context)
-        return sharedPreferences.getLong(keyInterval, INTERVAL_DEFAULT.toLong())
+        return sharedPreferences.getInt(keyInterval, INTERVAL_DEFAULT)
     }
 
-    open fun setInterval(context:Context, time:Long)
+    open fun setInterval(context:Context, time:Int)
     {
         val sharedPreferences = getSharedPref(context)
         val editor = sharedPreferences.edit()
-        editor.putLong(keyInterval, time)
+        editor.putInt(keyInterval, time)
         editor.commit()
     }
 

@@ -13,6 +13,7 @@
         android:background="#FFFFFF"
         android:orientation="vertical"
         android:gravity="center"
+        android:keepScreenOn="true"
         tools:context=".BlinkActivity"
         android:id="@+id/layoutBlink">
 
