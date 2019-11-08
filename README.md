@@ -34,3 +34,10 @@ Toggles between below screens for the configured duration; phone is in wakelock 
 
 ### Test
 This application has been tested on Samsung Galaxy9.
+
+## Watch 
+Look forward to implement! 
+
+# References 
+1. Color Popup by duanhong
+   https://github.com/duanhong169/ColorPicker/releases?utm_source=android-arsenal.com&utm_medium=referral&utm_campaign=7068
