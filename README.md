@@ -10,7 +10,7 @@ As a runner myself, I often run in the dark (morning or night) to meet training 
 ## Phone
 
 ### Use Cases
-Safety. Caution oncoming traffic with your blinking phone.  Among many phone carrier designs, below three are popular styles this application is designed for.  
+Safety. Caution oncoming traffic with your blinking phone and/or watch.  Among many phone carrier designs, below three are popular styles this application is designed for.  
 <img src="https://user-images.githubusercontent.com/1282659/68342401-1f718980-00b0-11ea-914d-30eb1fe16efb.png" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68342402-1f718980-00b0-11ea-8745-ef3c03f15009.png" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68342403-1f718980-00b0-11ea-8f4d-83d3d4550238.png" width="200"> 
 
 #### MainActivity (configuration) 
