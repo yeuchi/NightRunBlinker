@@ -1,7 +1,7 @@
 # NightRunBlinker
 Simple caution blinking on phone or watch for running in the dark.
 
-#Google Play 
+Google Play 
 https://play.google.com/store/apps/details?id=com.ctyeung.nightrunblinker
 
 # Introduction
