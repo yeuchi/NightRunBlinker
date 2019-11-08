@@ -1,6 +1,9 @@
 # NightRunBlinker
 Simple caution blinking on phone or watch for running in the dark.
 
+Google Play 
+https://play.google.com/store/apps/details?id=com.ctyeung.nightrunblinker
+
 # Introduction
 As a runner myself, I often run in the dark (morning or night) to meet training schedule mileage.  Yeah, there are plenty excellent safety products with reflectors and/or emits caution blinking.  Since I am already wearing my GPS/heart-rate-monitor watch and/or strapped to a phone, why not double their usefulness as well ?  
 
@@ -31,3 +34,10 @@ Toggles between below screens for the configured duration; phone is in wakelock 
 
 ### Test
 This application has been tested on Samsung Galaxy9.
+
+## Watch 
+Look forward to implement! 
+
+# References 
+1. Color Popup by duanhong
+   https://github.com/duanhong169/ColorPicker/releases?utm_source=android-arsenal.com&utm_medium=referral&utm_campaign=7068
