@@ -40,5 +40,4 @@ Look forward to implement!
 
 # References 
 1. Color Popup by duanhong
-
    https://github.com/duanhong169/ColorPicker/releases?utm_source=android-arsenal.com&utm_medium=referral&utm_campaign=7068
