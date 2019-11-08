@@ -16,7 +16,9 @@ import java.util.*
 import androidx.databinding.DataBindingUtil
 import com.ctyeung.nightrunblinker.databinding.ActivityBlinkBinding
 
-
+/*
+ * Blinking screen
+ */
 class BlinkActivity : AppCompatActivity() {
     var color1:Int = 0
     var color2:Int = 0
@@ -41,6 +43,9 @@ class BlinkActivity : AppCompatActivity() {
 
     fun startTimer()
     {
+        /*
+         * blink interval = duration of both colors
+         */
         var milliseconds:Int = SharedPrefUtility.INTERVAL_MULTIPLY * SharedPrefUtility.getInterval(this.applicationContext)
         milliseconds /= 2
 

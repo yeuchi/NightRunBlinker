@@ -4,6 +4,9 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.graphics.Color
 
+/*
+ * The only data persistence of this app for now
+ */
 object SharedPrefUtility
 {
     val mypreference = "mypref"

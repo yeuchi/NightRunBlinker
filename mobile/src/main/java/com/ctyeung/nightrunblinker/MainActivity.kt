@@ -14,10 +14,10 @@ import com.ctyeung.nightrunblinker.databinding.ActivityMainBinding
  *
  * phone
  * 1. blink at configure fixed interval / color
- * 2. blink by accelerometer peak position
- * 3. blink from music ?
+ * 2. blink by accelerometer peak position (tbd) ?
+ * 3. blink from music (tbd)?
  *
- * watch
+ * watch (tbd) ?
  * 1. blink at configured fixed interval / color
  * 2. blink by heart-rate
  *    a. if over: red light + vibrate

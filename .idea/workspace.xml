@@ -10,11 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85edc33a-39bc-487f-b758-cf6d7b4e279c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Advertisement/screenshots/Screenshot_20191106-133934_NightRunBlinker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/screenshots/Screenshot_20191106-133938_NightRunBlinker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/screenshots/Screenshot_20191106-133947_NightRunBlinker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/screenshots/Screenshot_20191106-141021_NightRunBlinker.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertisement/screenshots/Screenshot_20191106-141030_NightRunBlinker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/BlinkActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/BlinkActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/IntervalPopUp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/IntervalPopUp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/SharedPrefUtility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/SharedPrefUtility.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +25,7 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_28" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="756756004B6A4126" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -59,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/BlinkActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="e#37#604#0" expanded="true" />
               </folding>
@@ -71,8 +70,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/ColorPopUp.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="90">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/IntervalPopUp.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -80,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/SharedPrefUtility.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -99,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+            <state relative-caret-position="122">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="e#1646#1684#0" expanded="true" />
                 <element signature="e#1942#1986#0" expanded="true" />
@@ -125,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="-235">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
@@ -173,12 +181,12 @@
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout-land/activity_main.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/IntervalPopUp.kt" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/SharedPrefUtility.kt" />
-        <option value="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/MainActivity.kt" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_blink.xml" />
         <option value="$PROJECT_DIR$/mobile/build.gradle" />
         <option value="$PROJECT_DIR$/wear/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/SharedPrefUtility.kt" />
+        <option value="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/IntervalPopUp.kt" />
         <option value="$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/BlinkActivity.kt" />
       </list>
     </option>
@@ -203,6 +211,17 @@
             <path>
               <item name="NightRunBlinker" type="1abcf292:AndroidViewProjectNode" />
               <item name="mobile" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NightRunBlinker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mobile" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="NightRunBlinker" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mobile" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="nightrunblinker" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="NightRunBlinker" type="1abcf292:AndroidViewProjectNode" />
@@ -373,7 +392,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="23" width="1314" height="863" extended-state="0" />
+    <frame x="55" y="23" width="1314" height="863" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -476,13 +495,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/ColorPopUp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -490,39 +502,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/IntervalPopUp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding>
-            <element signature="e#1191#1246#0" expanded="true" />
-            <element signature="e#1273#1333#0" expanded="true" />
-            <element signature="e#1359#1415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
-          <folding>
-            <element signature="e#1646#1684#0" expanded="true" />
-            <element signature="e#1942#1986#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/SharedPrefUtility.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1eb9e77797e5f03df0b3bb2f934d775b/core-1.0.0/res/values/values.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -552,15 +534,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="-235">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#1646#1684#0" expanded="true" />
+            <element signature="e#1942#1986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/SharedPrefUtility.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/ColorPopUp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/IntervalPopUp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/java/com/ctyeung/nightrunblinker/BlinkActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="e#37#604#0" expanded="true" />
           </folding>

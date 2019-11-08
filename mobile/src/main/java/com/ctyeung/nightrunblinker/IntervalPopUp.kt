@@ -8,6 +8,9 @@ import android.widget.NumberPicker
 import androidx.annotation.Nullable
 import androidx.fragment.app.DialogFragment
 
+/*
+ * Time interval (number picker) dialog
+ */
 class IntervalPopUp : DialogFragment()
 {
     private var valueChangeListener: NumberPicker.OnValueChangeListener? = null
