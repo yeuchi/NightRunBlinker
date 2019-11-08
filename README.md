@@ -1,4 +1,4 @@
-# NightRunBlinker
+# NightRunBlinker <img src="https://user-images.githubusercontent.com/1282659/68507979-c8e08880-0232-11ea-84c5-da3501bac0f5.png" width="40"> 
 Simple caution blinking on phone or watch for running in the dark.
 
 Google Play 
