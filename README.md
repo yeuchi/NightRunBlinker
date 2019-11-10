@@ -23,7 +23,7 @@ Basic configurable features.
 <img src="https://user-images.githubusercontent.com/1282659/68546973-0283d180-03a2-11ea-8b37-8104a88450b6.jpg" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68547113-43c8b100-03a3-11ea-8ced-3b1f54ef3b0a.jpg" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68545157-fbec5e80-038f-11ea-8401-0baf3d3703fd.jpg" width="200"> 
 
 <img src="https://user-images.githubusercontent.com/1282659/68547013-54c4f280-03a2-11ea-874e-2c4c6db0cc98.jpg" width="400">
-<img src="https://user-images.githubusercontent.com/1282659/68545268-00654700-0391-11ea-8a65-18b0301185a3.jpg" width="400"> <img src="https://user-images.githubusercontent.com/1282659/68545287-2ab70480-0391-11ea-83a7-5e8f780995eb.jpg" width="400">
+<img src="https://user-images.githubusercontent.com/1282659/68547125-475c3800-03a3-11ea-84f5-c70eb299e2e6.jpg" width="400"> <img src="https://user-images.githubusercontent.com/1282659/68545287-2ab70480-0391-11ea-83a7-5e8f780995eb.jpg" width="400">
 
 #### BlinkActivity
 Toggles between below screens for the configured duration; phone is in wakelock mode.
