@@ -30,7 +30,7 @@ Toggles between below screens for the configured duration; phone is in wakelock 
 
 <img src="https://user-images.githubusercontent.com/1282659/68547037-74f4b180-03a2-11ea-84fb-ea8a7b1a1b5a.jpg" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68547038-77570b80-03a2-11ea-94de-fe76647d6fd4.jpg" width="200">
  
-<img src="https://user-images.githubusercontent.com/1282659/68348136-b9d8c980-00be-11ea-8e74-9cf7a3ccc063.jpg" width="400"> <img src="https://user-images.githubusercontent.com/1282659/68348135-b9d8c980-00be-11ea-91eb-d25bdb59c0c5.jpg" width="400">
+<img src="https://user-images.githubusercontent.com/1282659/68547057-a1103280-03a2-11ea-9325-cea11f5fe8a0.jpg" width="400"> <img src="https://user-images.githubusercontent.com/1282659/68547058-a40b2300-03a2-11ea-9a08-34bec5a66912.jpg" width="400">
 
 ### Test
 This application has been tested on Samsung Galaxy9.
