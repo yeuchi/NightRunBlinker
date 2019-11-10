@@ -13,14 +13,14 @@ As a runner myself, I often run in the dark (morning or night) to meet training 
 <img src="https://user-images.githubusercontent.com/1282659/68509122-d64b4200-0235-11ea-8f83-c782384ca709.png" width="300">
 
 Safety. Caution oncoming traffic with your blinking phone and/or watch.  Among many phone carrier designs, below three are popular styles this application is designed for.  
-<img src="https://user-images.githubusercontent.com/1282659/68545123-a87a1080-038f-11ea-9a7f-2dea7215bfe8.jpg" width="200"> <img src="https://user-images.githubusercontent.com/1282659/68342402-1f718980-00b0-11ea-8745-ef3c03f15009.png" width="200"> <img src="https://user-images.githubusercontent.com/1282659/68342403-1f718980-00b0-11ea-8f4d-83d3d4550238.png" width="200"> 
+<img src="https://user-images.githubusercontent.com/1282659/68545145-dbbc9f80-038f-11ea-83c5-dc92d18f531d.png" width="200"> <img src="https://user-images.githubusercontent.com/1282659/68342402-1f718980-00b0-11ea-8745-ef3c03f15009.png" width="200"> <img src="https://user-images.githubusercontent.com/1282659/68342403-1f718980-00b0-11ea-8f4d-83d3d4550238.png" width="200"> 
 
 #### MainActivity (configuration) 
 Basic configurable features.
 1. Colors of the toggling screen.
 2. Blink interval in seconds (should it be in half-seconds or milli-seconds?).
 
-<img src="https://user-images.githubusercontent.com/1282659/68332629-c2b8a380-009c-11ea-8f79-1fc3dc599d3f.jpg" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68334674-be8e8500-00a0-11ea-8ad4-38cb850c343a.jpg" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68334675-bf271b80-00a0-11ea-8bdf-5632c15e0d7b.jpg" width="200"> 
+<img src="https://user-images.githubusercontent.com/1282659/68545123-a87a1080-038f-11ea-9a7f-2dea7215bfe8.jpg" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68334674-be8e8500-00a0-11ea-8ad4-38cb850c343a.jpg" width="200">  <img src="https://user-images.githubusercontent.com/1282659/68334675-bf271b80-00a0-11ea-8bdf-5632c15e0d7b.jpg" width="200"> 
 
 <img src="https://user-images.githubusercontent.com/1282659/68348132-b9403300-00be-11ea-943b-960393ee4e77.jpg" width="400">
 
