@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity(), IntervalPopUp.OnDialogOKListener {
     fun setPrefInterval() {
         val seconds = SharedPrefUtility.getInterval(this.applicationContext)
         val btnInterval:Button = findViewById(R.id.btnInterval)
-        btnInterval?.text = resources.getString(R.string.interval) + seconds
+        btnInterval?.text = (seconds.toString() + " " + resources.getString(R.string.seconds))
     }
 
     fun setPrefBlinkColor(id:Int, colorName:String) {

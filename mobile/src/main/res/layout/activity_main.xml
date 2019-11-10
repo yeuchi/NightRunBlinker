@@ -15,6 +15,7 @@
         android:background="#DDDDDD"
         android:layout_gravity="center"
         android:gravity="center"
+        android:weightSum="2"
         tools:context=".MainActivity">
 
         <LinearLayout
@@ -22,7 +23,8 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_margin="5dp"
-            android:gravity="left">
+            android:layout_weight="1"
+            android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -43,12 +45,13 @@
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="interval"/>
+                    android:text="@string/interval"/>
 
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:textAllCaps="false"
                     android:onClick="@{()-> listener.onClickInterval()}"
                     android:id="@+id/btnInterval"/>
 
@@ -100,12 +103,20 @@
 
             </LinearLayout>
 
-            <Button
-                android:layout_width="match_parent"
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:src="@drawable/ic_play_arrow_24px"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:layout_margin="10dp"
-                android:text="@string/start"
+                app:backgroundTint="#00FF55"
                 android:onClick="@{()-> listener.onClickStart()}"
                 android:id="@+id/btnStart"/>
 

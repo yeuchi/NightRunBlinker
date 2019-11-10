@@ -45,12 +45,13 @@
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="interval"/>
+                    android:text="@string/interval"/>
 
                 <Button
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:textAllCaps="false"
                     android:onClick="@{()-> listener.onClickInterval()}"
                     android:id="@+id/btnInterval"/>
 
@@ -112,12 +113,11 @@
             android:layout_weight="1"
             android:gravity="center">
 
-            <Button
-                android:layout_width="match_parent"
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:src="@drawable/ic_play_arrow_24px"
+                app:backgroundTint="#00FF55"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:layout_margin="10dp"
-                android:text="@string/start"
                 android:onClick="@{()-> listener.onClickStart()}"
                 android:id="@+id/btnStart"/>
 
