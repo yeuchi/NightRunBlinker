@@ -12,8 +12,9 @@ As a runner myself, I often run in the dark (morning or night) to meet training 
 ### Use Cases
 <img src="https://user-images.githubusercontent.com/1282659/68509122-d64b4200-0235-11ea-8f83-c782384ca709.png" width="300">
 
-Safety. Caution oncoming traffic with your blinking phone and/or watch.  Among many phone carrier designs, below three are popular styles this application is designed for.  
-<img src="https://user-images.githubusercontent.com/1282659/68545145-dbbc9f80-038f-11ea-83c5-dc92d18f531d.png" width="200"> <img src="https://user-images.githubusercontent.com/1282659/68342402-1f718980-00b0-11ea-8745-ef3c03f15009.png" width="200"> <img src="https://user-images.githubusercontent.com/1282659/68342403-1f718980-00b0-11ea-8f4d-83d3d4550238.png" width="200"> 
+Safety. Caution oncoming traffic with your blinking phone and/or watch.  Among many phone carrier designs, below are popular designs well suited for this application.  
+<img src="https://user-images.githubusercontent.com/1282659/68545145-dbbc9f80-038f-11ea-83c5-dc92d18f531d.png" width="200"> <img src="https://user-images.githubusercontent.com/1282659/68342402-1f718980-00b0-11ea-8745-ef3c03f15009.png" width="200"> <img src="https://user-images.githubusercontent.com/1282659/68342403-1f718980-00b0-11ea-8f4d-83d3d4550238.png" width="200">
+<img src="https://user-images.githubusercontent.com/1282659/68624944-95edfd00-049d-11ea-8696-e307e876e9e5.png" width="200">
 
 #### MainActivity (configuration) 
 Basic configurable features.
