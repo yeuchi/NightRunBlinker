@@ -1,6 +1,4 @@
-# NightRunBlinker <img src="https://user-images.githubusercontent.com/1282659/68507979-c8e08880-0232-11ea-84c5-da3501bac0f5.png" width="40"> 
-
-<img src="https://user-images.githubusercontent.com/1282659/69891726-50666800-12c4-11ea-80cd-d8b6972e5594.gif" width="40"> 
+# NightRunBlinker <img src="https://user-images.githubusercontent.com/1282659/69891726-50666800-12c4-11ea-80cd-d8b6972e5594.gif" width="40"> 
 
 Simple caution blinking on phone or watch for running in the dark.
 
