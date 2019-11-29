@@ -43,3 +43,6 @@ Look forward to implement!
 # References 
 1. Color Popup by duanhong
    https://github.com/duanhong169/ColorPicker/releases?utm_source=android-arsenal.com&utm_medium=referral&utm_campaign=7068
+   
+2. Animated GIF Maker (create blinking icon at top of page)
+   https://ezgif.com/maker
